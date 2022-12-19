@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class ArticlesController < ApplicationController
   before_action :find_article, only: %i[show edit create destroy]
 
